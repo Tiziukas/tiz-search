@@ -29,7 +29,7 @@ lib.callback.register('tiz-search:client:checkHands', function(entity)
             },
         })
         return true
-    elseif not isRaisingHands(entity) then
+    else
         return false
     end
 end)
